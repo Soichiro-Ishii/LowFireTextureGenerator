@@ -79,7 +79,7 @@ program.exe <texture_path> <fire_height>
 Example:
 
 ```
-program.exe fire.png 12
+program.exe fire_0.png 12
 ```
 
 This will generate a new texture with each fire frame reduced to the specified height.
