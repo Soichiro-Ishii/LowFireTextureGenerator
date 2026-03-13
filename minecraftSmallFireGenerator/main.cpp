@@ -9,7 +9,7 @@
 
 int main() {
 	//入力
-	std::string path = "";
+	std::string path = "";	//what
 	int fireSizeH = 0;
 	std::cout << "変更を加える火のテクスチャのパスを入力して下さい:";
 	std::getline(std::cin, path);
@@ -25,3 +25,9 @@ int main() {
 	}
 	stbi_image_free(befFire);
 }
+
+//1 > main.cpp
+//1 > C:\Users\石井蒼一朗\source\repos\minecraftSmallFireGenerator\minecraftSmallFireGenerator\main.cpp(1, 1) : warning C4819 : ファイルは、現在のコード ページ(932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+//1 > C:\Users\石井蒼一朗\source\repos\minecraftSmallFireGenerator\minecraftSmallFireGenerator\main.cpp(14, 25) : error C2065 : 'path' : 定義されていない識別子です。
+//1 > C:\Users\石井蒼一朗\source\repos\minecraftSmallFireGenerator\minecraftSmallFireGenerator\main.cpp(19, 27) : error C2065 : 'path' : 定義されていない識別子です。
+//1 > C:\Users\石井蒼一朗\source\repos\minecraftSmallFireGenerator\minecraftSmallFireGenerator\main.cpp(20, 6) : error C3536 : 'befFire' : 初期化前に使用することはできません
