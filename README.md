@@ -12,6 +12,10 @@
 ろーふぁいやーが作れるじゃありゃーせんかぁ
 
 ---
+| Before | After |
+|------|------|
+| ![](before.png) | ![](after.png) |
+---
 
 # Low Fire Texture Generator
 
